@@ -1,0 +1,30 @@
+version: "3"
+services:
+  database:
+    image: mysql
+    environment:
+      MYSQL_DATABASE: entertainment
+      #      MYSQL_USER: user2
+      #      MYSQL_PASSWORD: userpwd
+      MYSQL_ROOT_HOST: '%'
+      MYSQL_ROOT_PASSWORD: root
+    ports:
+      - 3306:3306
+    restart: always
+    networks:
+      - test
+  application:
+    build: .
+    ports:
+      - 8080:8080
+    depends_on:
+      - database
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:mysql://database:3306/entertainment
+      SPRING_DATASOURCE_USERNAME: root
+      SPRING_DATASOURCE_PASSWORD: root
+    networks:
+      - test
+    restart: always
+networks:
+  test:

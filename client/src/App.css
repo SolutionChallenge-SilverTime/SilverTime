@@ -1,0 +1,9 @@
+.App {
+  max-width: 480px;
+  margin: 0 auto;
+  min-height: 100%;
+  width: auto;
+  position: relative;
+  word-break: keep-all;
+  border: 3px solid #f1f1f5;
+}

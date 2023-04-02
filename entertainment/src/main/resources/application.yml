@@ -1,0 +1,48 @@
+#spring:
+#  ## spring 서버 local로 돌릴때
+#  datasource:
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#    url: jdbc:mysql://localhost:3306/entertainment?useSSL=false&allowPublicKeyRetrieval=true&useUnicode=true&serverTimezone=Asia/Seoul
+#    username: root
+#    password: root
+#  ##
+#  jpa:
+#    show-sql: true
+#    hibernate:
+#      ddl-auto: update
+#    properties:
+#      hibernate:
+#        dialect: org.hibernate.dialect.MySQL5Dialect
+#    generate-ddl: true
+#  mvc:
+#    view:
+#      prefix: /WEB-INF/jsp/
+#      suffix: .jsp
+#app:
+#  firebase-configuration-file: ./serviceAccountKey.json
+#  firebase-bucket: silvertime-16cf3.appspot.com
+spring:
+  datasource:
+    url: jdbc:mysql://34.121.15.58:3306/entertainment?useSSL=false&characterEncoding=UTF-8&serverTimezone=UTC
+    username: webadmin
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    hikari:
+      connection-test-query: select 1 from dual
+  jpa:
+    database: mysql
+    database-platform: org.hibernate.dialect.MySQL8Dialect
+    properties:
+      hibernate:
+        format_sql: true
+        enable_lazy_load_no_trans: true
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  mvc:
+    view:
+      prefix: /WEB-INF/jsp/
+      suffix: .jsp
+app:
+  firebase-configuration-file: ./serviceAccountKey.json
+  firebase-bucket: silvertime-16cf3.appspot.com
