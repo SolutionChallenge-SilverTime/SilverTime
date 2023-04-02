@@ -58,3 +58,9 @@ npm start
 ```
 
 ## Contributors
+|Backend | Backend | Front |AI|
+|:----------: | :------------: | :------------: |:------------: |
+|![Uploading IMG_5069 2.jpg…]()
+||||
+|||||
+
