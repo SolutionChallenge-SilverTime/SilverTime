@@ -30,7 +30,7 @@ We strive to provide elderly people with a more enjoyable retirement life by hel
 
 | About Tutor | Review | alert |
 |:----------: | :------------: | :------------: |
-![lecturetutorinfo](https://user-images.githubusercontent.com/66052043/229365365-49c2e5c8-8ea2-4d75-ba85-8de5bcc1a703.png) | ![review](https://user-images.githubusercontent.com/66052043/229365425-f809a7fa-93d9-441c-befb-eb7acb90e255.png)||
+![lecturetutorinfo](https://user-images.githubusercontent.com/66052043/229365365-49c2e5c8-8ea2-4d75-ba85-8de5bcc1a703.png) | ![review](https://user-images.githubusercontent.com/66052043/229365425-f809a7fa-93d9-441c-befb-eb7acb90e255.png)|![localhost_3000_myPage (2) (1)](https://user-images.githubusercontent.com/66052043/229366605-6baeed04-56e7-4522-a98f-16f3ef9bd89d.png)|
 
 | MyPage (Tutor) | Tutor's Lectures | Student List |
 |:----------: | :------------: | :------------: |
