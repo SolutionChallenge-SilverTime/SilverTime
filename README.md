@@ -12,7 +12,8 @@ We strive to provide elderly people with a more enjoyable retirement life by hel
 
 ## Project Architecture
 
-![](../../../../../Downloads/KakaoTalk_Image_2023-04-01-02-01-46.jpeg)
+![My First Board (1)](https://user-images.githubusercontent.com/66052043/229367731-342bdd98-c654-41f1-95c5-64fff7e0f4a1.jpg)
+
 
 ## Demo
 
