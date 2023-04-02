@@ -60,7 +60,6 @@ npm start
 ## Contributors
 |Backend | Backend | Front |AI|
 |:----------: | :------------: | :------------: |:------------: |
-|![Uploading IMG_5069 2.jpg…]()
-||||
-|||||
+|![IMG_5243 (1)](https://user-images.githubusercontent.com/66052043/229368954-284ea82a-04a8-4968-9014-359ebca6da1e.jpg)|준원님사진|![KakaoTalk_Image_2023-04-03-02-07-04](https://user-images.githubusercontent.com/66052043/229369087-1aa4e209-41b1-43c2-99c7-c427a18598e6.jpeg)|![KakaoTalk_Image_2023-04-03-02-08-48](https://user-images.githubusercontent.com/66052043/229369091-c68a36b6-ac76-48b8-b0c7-1e697c41f684.png)|
+|[황솔희](https://github.com/solhee-hwang)|[서준원](https://github.com/wnsdnjs70)|[김민선](https://github.com/CLM-BONNY)|[김영석](https://github.com/youngseok0)|
 
