@@ -26,7 +26,7 @@ We strive to provide elderly people with a more enjoyable retirement life by hel
 
 | AI Recommend | Lecture Detail | Curriculum |
 |:----------: | :------------: | :------------: |
-|![airecommend](https://user-images.githubusercontent.com/66052043/229365290-346bdc2a-e8cc-45ea-a6e1-590a39f92d01.png)|![detail](https://user-images.githubusercontent.com/66052043/229365317-aa5bc45e-de6a-43af-8223-33d9a698600b.png)|![curr](https://user-images.githubusercontent.com/66052043/229365339-e7bcc021-f07d-468b-a77b-5b46db870aca.png)|
+|![airecommend](https://user-images.githubusercontent.com/66052043/229365290-346bdc2a-e8cc-45ea-a6e1-590a39f92d01.png)|![detail (1)](https://user-images.githubusercontent.com/66052043/229391908-6ad8fb91-ff53-451e-9964-3c8864bbdcc2.png)|![curr](https://user-images.githubusercontent.com/66052043/229365339-e7bcc021-f07d-468b-a77b-5b46db870aca.png)|
 
 
 | About Tutor | Review | alert |
