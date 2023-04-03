@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { useNavigate } from "react-router-dom";
 import * as style from "./styles";
 import FullButton from "../../Components/Button/FullButton";
@@ -9,21 +9,7 @@ import FloatingButton from "../../Components/Button/FloatingButton";
 export default function Main() {
   const title = "실버타임";
   const navigate = useNavigate();
-  const identity = sessionStorage.getItem("identity");
-  console.log(identity != 0);
 
-  // useEffect(() => {
-  //   if (sessionStorage.getItem("nickName") === null) {
-  //     console.log("isLogin ?? :: ", nick);
-  //   } else {
-  //     setNick(sessionStorage.getItem("nickName"));
-  //     setUserId(sessionStorage.getItem("userId"));
-  //     setIdentity(sessionStorage.getItem("identity"));
-  //     console.log("nickName :: ", nick);
-  //     console.log("userId ::", userId);
-  //     console.log("identity :: ", identity);
-  //   }
-  // }, []);
   return (
     <div>
       <Header title={title} />
