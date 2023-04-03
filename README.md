@@ -56,6 +56,7 @@ cd SilverTime/client
 npm install
 npm start
 ```
+Please change the width to 480 cellphone size in developer mode of Chrome.
 
 ## Contributors
 |Backend | Backend | Front |AI|
