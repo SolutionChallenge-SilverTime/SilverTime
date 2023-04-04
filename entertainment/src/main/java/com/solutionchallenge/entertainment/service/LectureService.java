@@ -13,6 +13,6 @@ public class LectureService {
     private final LectureRepository lectureRepository;
 
     public Lecture findbyId(Long lectureId) {
-        return lectureRepository.findByLectureId(lectureId).orElseThrow(()-> new IllegalArgumentException("없는 값입니다"));
+        return lectureRepository.findById(lectureId).orElseThrow(()-> new IllegalArgumentException("없는 값입니다"));
     }
 }

@@ -12,6 +12,6 @@ import org.springframework.stereotype.Service;
 public class LectureTestService {
     private final LectureRepository lectureRepository;
     public Lecture findById(Long lectureId){
-        return lectureRepository.findByLectureId(lectureId).orElseThrow(() -> new IllegalArgumentException("없는 lecture ID "));
+        return lectureRepository.findById(lectureId).orElseThrow(() -> new IllegalArgumentException("없는 lecture ID "));
     }
 }
