@@ -1,5 +1,5 @@
 
-## Instroduction
+## Introduction
 
 SilverTime is a service provided by a welfare center that offers various contents for elderly people. Our service provides classes in various fields such as art, cooking, and sports, allowing elderly people to enjoy a variety of hobbies.
 
