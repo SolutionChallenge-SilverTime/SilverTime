@@ -1,11 +1,8 @@
-package com.solutionchallenge.entertainment.controller;
+package com.solutionchallenge.entertainment.controller.lecture;
 
-import com.google.firebase.auth.FirebaseAuthException;
 import com.solutionchallenge.entertainment.controller.dto.request.TutorLectureRequest;
 import com.solutionchallenge.entertainment.controller.dto.response.BriefLectureResponse;
-import com.solutionchallenge.entertainment.service.TutorLectureService;
-import lombok.AllArgsConstructor;
-import lombok.NoArgsConstructor;
+import com.solutionchallenge.entertainment.service.lecture.TutorLectureService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
@@ -13,7 +10,6 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
 import javax.validation.Valid;
-import java.io.IOException;
 import java.util.List;
 
 @RestController

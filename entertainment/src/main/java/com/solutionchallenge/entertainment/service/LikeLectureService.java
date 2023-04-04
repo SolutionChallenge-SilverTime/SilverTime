@@ -6,6 +6,7 @@ import com.solutionchallenge.entertainment.domain.likeLecture.LikeLecture;
 import com.solutionchallenge.entertainment.domain.likeLecture.LikeLectureRespository;
 import com.solutionchallenge.entertainment.domain.senior.Senior;
 import com.solutionchallenge.entertainment.service.dto.LikeLectureDTO;
+import com.solutionchallenge.entertainment.service.lecture.LectureService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
@@ -16,10 +17,10 @@ import org.springframework.stereotype.Service;
 public class LikeLectureService {
     private final LikeLectureRespository likeLectureRespository;
     private final SeniorService seniorService;
-    private final LectureTestService lectureTestService;
+    private final LectureService lectureService;
     private final LectureRepository lectureRepository;
     public void likeUnlike(LikeLectureDTO likeLectureDTO) {
-        Lecture lecture = lectureTestService.findById(likeLectureDTO.getLectureId());
+        Lecture lecture = lectureService.findById(likeLectureDTO.getLectureId());
         Senior senior = seniorService.findBySeniorId(likeLectureDTO.getSeniorId());
 //        Senior senior = seniorService.findByNickName(seniorNickName);
         //조항요 취소

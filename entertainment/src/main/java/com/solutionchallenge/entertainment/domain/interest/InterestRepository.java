@@ -9,6 +9,5 @@ public interface InterestRepository extends JpaRepository<Interest, Long> {
 
     Optional<Interest> findByContent(String content);
 
-    Optional<Interest> findById(Long interestId);
 }
 

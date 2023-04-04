@@ -1,4 +1,4 @@
-package com.solutionchallenge.entertainment.service;
+package com.solutionchallenge.entertainment.service.storage;
 
 import org.springframework.stereotype.Component;
 import org.springframework.web.multipart.MultipartFile;

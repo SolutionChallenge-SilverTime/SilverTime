@@ -1,12 +1,12 @@
-package com.solutionchallenge.entertainment.service;
+package com.solutionchallenge.entertainment.service.lecture;
 
 import com.solutionchallenge.entertainment.controller.dto.response.*;
-import com.solutionchallenge.entertainment.domain.category.CategoryRepository;
 import com.solutionchallenge.entertainment.domain.curriculum.Curriculum;
 import com.solutionchallenge.entertainment.domain.curriculum.CurriculumRepository;
 import com.solutionchallenge.entertainment.domain.instroductionImages.InstroductionImages;
 import com.solutionchallenge.entertainment.domain.instroductionImages.InstroductionImagesRepository;
 import com.solutionchallenge.entertainment.domain.lecture.Lecture;
+import com.solutionchallenge.entertainment.domain.lecture.LectureRepository;
 import com.solutionchallenge.entertainment.domain.registration.RegistrationRepository;
 import com.solutionchallenge.entertainment.domain.review.Review;
 import com.solutionchallenge.entertainment.domain.review.ReviewRepository;
@@ -24,12 +24,12 @@ import java.util.stream.Collectors;
 @Service
 @Slf4j
 @RequiredArgsConstructor
-public class LectureRecommendService {
-    private final LectureService lectureService;
+public class LectureService {
     private final RegistrationRepository registrationRepository;
     private final CurriculumRepository curriculumRepository;
     private final InstroductionImagesRepository instroductionImagesRepository;
     private final ReviewRepository reviewRepository;
+    private final LectureRepository lectureRepository;
     public void recommend() throws IOException, InterruptedException {
         String venvPath = "/Users/hwangsolhee/opt/anaconda3/etc/silvertime"; // 가상환경 경로
         String scriptPath = "/path/to/your/script.py"; // Python 스크립트 경로
@@ -57,7 +57,7 @@ public class LectureRecommendService {
     public List<RecommendResponse> getrecommendResponse(Long[] lectureIds) {
         List<Lecture> getLectures = new ArrayList<>();
         for (Long lecureId: lectureIds) {
-            Lecture getLecture = lectureService.findbyId(lecureId);
+            Lecture getLecture = findById(lecureId);
             getLectures.add(getLecture);
         }
         List<RecommendResponse> recommendResponses = getLectures.stream().map(RecommendResponse::new).collect(Collectors.toList());
@@ -65,7 +65,7 @@ public class LectureRecommendService {
     }
 
     public DetailLectureResponse getDetail(Long lectureId) {
-        Lecture lecture = lectureService.findbyId(lectureId);
+        Lecture lecture = findById(lectureId);
         String categoryToKorean = categoryToKorean(lecture.getCategory().getCategoryId());
         Tutor tutor = registrationRepository.findByLecture(lecture).get().getTutor();
         List<Review> reviews = reviewRepository.findAllByLecture(lecture).get();
@@ -88,5 +88,8 @@ public class LectureRecommendService {
             return "친목";
         }
         return "";
+    }
+    public Lecture findById(Long lectureId) {
+        return lectureRepository.findById(lectureId).orElseThrow(()-> new IllegalArgumentException("없는 값입니다"));
     }
 }

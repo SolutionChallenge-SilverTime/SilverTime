@@ -1,9 +1,9 @@
-package com.solutionchallenge.entertainment.controller;
+package com.solutionchallenge.entertainment.controller.lecture;
 
 import com.solutionchallenge.entertainment.controller.dto.request.ReviewRequest;
 import com.solutionchallenge.entertainment.controller.dto.response.BriefLectureResponse;
 import com.solutionchallenge.entertainment.controller.dto.response.LectureInfoResponse;
-import com.solutionchallenge.entertainment.service.UserLectureService;
+import com.solutionchallenge.entertainment.service.lecture.UserLectureService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;

@@ -7,6 +7,8 @@ import com.solutionchallenge.entertainment.domain.senior.Senior;
 import com.solutionchallenge.entertainment.service.dto.GuardianDTO;
 import com.solutionchallenge.entertainment.service.dto.InterestDTO;
 import com.solutionchallenge.entertainment.service.dto.SeniorDTO;
+import com.solutionchallenge.entertainment.service.storage.FirebaseService;
+import com.solutionchallenge.entertainment.service.storage.ImageHandler;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;

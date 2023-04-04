@@ -3,14 +3,11 @@ package com.solutionchallenge.entertainment.controller;
 import com.google.firebase.auth.FirebaseAuthException;
 import com.solutionchallenge.entertainment.controller.dto.request.GurdianInputSeniorRequest;
 import com.solutionchallenge.entertainment.controller.dto.request.GuardianRequest;
-import com.solutionchallenge.entertainment.service.FireBaseInitializer;
-import com.solutionchallenge.entertainment.service.FirebaseService;
+import com.solutionchallenge.entertainment.service.storage.FirebaseService;
 import com.solutionchallenge.entertainment.service.GuardianService;
 import lombok.RequiredArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
-import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 

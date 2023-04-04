@@ -1,4 +1,4 @@
-package com.solutionchallenge.entertainment.service;
+package com.solutionchallenge.entertainment.service.lecture;
 
 import com.solutionchallenge.entertainment.controller.dto.response.BriefLectureResponse;
 import com.solutionchallenge.entertainment.controller.dto.response.LectureInfoResponse;

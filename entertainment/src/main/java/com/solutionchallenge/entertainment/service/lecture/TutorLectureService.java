@@ -1,10 +1,7 @@
-package com.solutionchallenge.entertainment.service;
+package com.solutionchallenge.entertainment.service.lecture;
 
-import com.google.firebase.auth.FirebaseAuthException;
 import com.solutionchallenge.entertainment.controller.dto.response.BriefLectureResponse;
-import com.solutionchallenge.entertainment.controller.dto.response.GeoResultDto;
 import com.solutionchallenge.entertainment.controller.dto.response.GeocodingApiResponse;
-import com.solutionchallenge.entertainment.controller.dto.response.KakaoApiResponse;
 import com.solutionchallenge.entertainment.domain.category.Category;
 import com.solutionchallenge.entertainment.domain.category.CategoryRepository;
 import com.solutionchallenge.entertainment.domain.curriculum.Curriculum;
@@ -18,15 +15,18 @@ import com.solutionchallenge.entertainment.domain.registration.RegistrationRepos
 import com.solutionchallenge.entertainment.domain.tutor.Tutor;
 import com.solutionchallenge.entertainment.domain.tutor.TutorRepository;
 import com.solutionchallenge.entertainment.service.dto.TutorLectureDTO;
+import com.solutionchallenge.entertainment.service.storage.FirebaseService;
+import com.solutionchallenge.entertainment.service.lecture.map.GoogleMapAddressSearchService;
+import com.solutionchallenge.entertainment.service.lecture.map.GoogleMapUriBuilderService;
+import com.solutionchallenge.entertainment.service.lecture.map.KakaoAddressSearchService;
+import com.solutionchallenge.entertainment.service.lecture.map.KakaoUriBuilderService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Map;
 
 @Slf4j
 @Service

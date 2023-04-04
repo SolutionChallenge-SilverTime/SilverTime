@@ -15,7 +15,8 @@ import java.util.List;
 @Slf4j
 @RequiredArgsConstructor
 public class InterestService {
-    private final InterestRepository interestRepository;
+    private final
+    InterestRepository interestRepository;
     private final InterestRelationService interestRelationService;
 
     public void create(Senior senior, List<String> contents) {
