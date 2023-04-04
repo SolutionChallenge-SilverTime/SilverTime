@@ -60,6 +60,6 @@ Please change the width to 480 cellphone size in developer mode of Chrome.
 ## Contributors
 |Backend | Backend | Front |AI|
 |:----------: | :------------: | :------------: |:------------: |
-|![IMG_5243 (1)](https://user-images.githubusercontent.com/66052043/229368954-284ea82a-04a8-4968-9014-359ebca6da1e.jpg)|<img src="https://user-images.githubusercontent.com/43106344/229676718-14effafa-26e3-4c34-873a-c09fbff8c5fd.jpg" width="150" height="150"/>|![KakaoTalk_Image_2023-04-03-02-07-04](https://user-images.githubusercontent.com/66052043/229369087-1aa4e209-41b1-43c2-99c7-c427a18598e6.jpeg)|![KakaoTalk_Image_2023-04-03-02-08-48](https://user-images.githubusercontent.com/66052043/229369091-c68a36b6-ac76-48b8-b0c7-1e697c41f684.png)|
+|![IMG_5243 (1)](https://user-images.githubusercontent.com/66052043/229368954-284ea82a-04a8-4968-9014-359ebca6da1e.jpg)|<img src="https://user-images.githubusercontent.com/43106344/229676718-14effafa-26e3-4c34-873a-c09fbff8c5fd.jpg" width="200" height="180"/>|![KakaoTalk_Image_2023-04-03-02-07-04](https://user-images.githubusercontent.com/66052043/229369087-1aa4e209-41b1-43c2-99c7-c427a18598e6.jpeg)|![KakaoTalk_Image_2023-04-03-02-08-48](https://user-images.githubusercontent.com/66052043/229369091-c68a36b6-ac76-48b8-b0c7-1e697c41f684.png)|
 |[황솔희](https://github.com/solhee-hwang)|[서준원](https://github.com/wnsdnjs70)|[김민선](https://github.com/CLM-BONNY)|[김영석](https://github.com/youngseok0)|
 
