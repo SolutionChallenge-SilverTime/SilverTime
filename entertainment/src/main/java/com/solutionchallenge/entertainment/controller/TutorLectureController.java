@@ -1,4 +1,4 @@
-package com.solutionchallenge.entertainment.controller.dto;
+package com.solutionchallenge.entertainment.controller;
 
 import com.google.firebase.auth.FirebaseAuthException;
 import com.solutionchallenge.entertainment.controller.dto.request.TutorLectureRequest;

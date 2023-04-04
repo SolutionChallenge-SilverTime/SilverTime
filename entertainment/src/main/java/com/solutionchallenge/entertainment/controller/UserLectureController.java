@@ -1,4 +1,4 @@
-package com.solutionchallenge.entertainment.controller.dto;
+package com.solutionchallenge.entertainment.controller;
 
 import com.solutionchallenge.entertainment.controller.dto.request.ReviewRequest;
 import com.solutionchallenge.entertainment.controller.dto.response.BriefLectureResponse;

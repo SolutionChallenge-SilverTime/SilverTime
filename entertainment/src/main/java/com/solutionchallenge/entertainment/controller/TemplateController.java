@@ -1,4 +1,4 @@
-package com.solutionchallenge.entertainment.controller.dto;
+package com.solutionchallenge.entertainment.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
