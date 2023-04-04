@@ -7,7 +7,6 @@ import com.solutionchallenge.entertainment.domain.tutor.Tutor;
 import com.solutionchallenge.entertainment.domain.tutor.TutorRepository;
 import com.solutionchallenge.entertainment.service.dto.TutorDTO;
 import com.solutionchallenge.entertainment.service.storage.FirebaseService;
-import com.solutionchallenge.entertainment.service.storage.ImageHandler;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
@@ -20,7 +19,7 @@ public class TutorService {
     private final TutorRepository tutorRepository;
     private final SeniorRepository seniorRepository;
     private final GurdianRepository gurdianRepository;
-    private final ImageHandler imageHandler;
+//    private final ImageHandler imageHandler;
     private final FirebaseService firebaseService;
 
 

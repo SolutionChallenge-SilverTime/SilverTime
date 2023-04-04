@@ -6,7 +6,6 @@ import com.solutionchallenge.entertainment.domain.senior.SeniorRepository;
 import com.solutionchallenge.entertainment.service.dto.InterestDTO;
 import com.solutionchallenge.entertainment.service.dto.SeniorDTO;
 import com.solutionchallenge.entertainment.service.storage.FirebaseService;
-import com.solutionchallenge.entertainment.service.storage.ImageHandler;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
@@ -17,7 +16,7 @@ import org.springframework.web.multipart.MultipartFile;
 @RequiredArgsConstructor
 public class SeniorService {
     private final SeniorRepository seniorRepository;
-    private final ImageHandler imageHandler;
+//    private final ImageHandler imageHandler;
     private final InterestService interestService;
     private final FirebaseService firebaseService;
     public void signUp(SeniorDTO seniorDTO, MultipartFile profileImage, InterestDTO interestDTO) throws Exception{
