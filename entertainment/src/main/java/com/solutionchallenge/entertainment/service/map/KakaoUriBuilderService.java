@@ -1,4 +1,4 @@
-package com.solutionchallenge.entertainment.service.lecture.map;
+package com.solutionchallenge.entertainment.service.map;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

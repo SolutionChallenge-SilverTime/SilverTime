@@ -1,4 +1,4 @@
-package com.solutionchallenge.entertainment.service.lecture.map;
+package com.solutionchallenge.entertainment.service.map;
 
 import com.solutionchallenge.entertainment.controller.dto.response.KakaoApiResponse;
 import lombok.RequiredArgsConstructor;
